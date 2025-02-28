@@ -1,0 +1,40 @@
+{
+    "name": "@xlib/www-country_creatures.vet",
+    "author": "Ser Software, LLC",
+    "private": true,
+    "version": "0.0.0",
+    "description": "",
+    "type": "module",
+    "main": "./dist/index.cjs",
+    "module": "./dist/index.js",
+    "types": "./dist/index.d.ts",
+    "scripts": {
+        "start": "npm install --force && vite",
+        "build": "npm install --force && vite build",
+        "lint": "eslint .",
+        "preview": "vite preview",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject"
+    },
+    "dependencies": {
+        "react": "latest",
+        "react-dom": "latest"
+    },
+    "devDependencies": {
+        "@eslint/js": "latest",
+        "@types/node": "latest",
+        "@types/react": "latest",
+        "@types/react-dom": "latest",
+        "@vitejs/plugin-react": "latest",
+        "eslint": "latest",
+        "eslint-plugin-react-hooks": "latest",
+        "eslint-plugin-react-refresh": "latest",
+        "globals": "latest",
+        "path": "latest",
+        "tsup": "latest",
+        "typescript": "latest",
+        "typescript-eslint": "latest",
+        "vite": "latest",
+        "vite-tsconfig-paths": "latest"
+    }
+}

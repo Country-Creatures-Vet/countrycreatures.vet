@@ -1,0 +1,45 @@
+{
+    "name": "@xlib/www-country_creatures.vet",
+    "author": "Ser Software, LLC",
+    "private": true,
+    "version": "0.0.1",
+    "description": "",
+    "type": "module",
+    "main": "./dist/index.cjs",
+    "module": "./dist/index.js",
+    "types": "./dist/index.d.ts",
+    "homepage": "https://country-creatures-vet.github.io/countrycreatures.vet",
+    "scripts": {
+        "start": "npm install --force && vite",
+        "build": "npm install --force && vite build",
+        "lint": "eslint .",
+        "preview": "vite preview",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject",
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build"
+    },
+    "dependencies": {
+        "@xlib/lib-kds": "file:../xlib/.build/lib/tsx/kds",
+        "react": "latest",
+        "react-dom": "latest"
+    },
+    "devDependencies": {
+        "@eslint/js": "latest",
+        "@types/node": "latest",
+        "@types/react": "latest",
+        "@types/react-dom": "latest",
+        "@vitejs/plugin-react": "latest",
+        "eslint": "latest",
+        "eslint-plugin-react-hooks": "latest",
+        "eslint-plugin-react-refresh": "latest",
+        "gh-pages": "^6.3.0",
+        "globals": "latest",
+        "path": "latest",
+        "tsup": "latest",
+        "typescript": "latest",
+        "typescript-eslint": "latest",
+        "vite": "latest",
+        "vite-tsconfig-paths": "latest"
+    }
+}

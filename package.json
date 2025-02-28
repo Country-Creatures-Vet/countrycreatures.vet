@@ -17,7 +17,7 @@
         "test": "react-scripts test",
         "eject": "react-scripts eject",
         "predeploy": "npm run build",
-        "deploy": "gh-pages -d build"
+        "deploy": "gh-pages -d dist"
     },
     "dependencies": {
         "@xlib/lib-kds": "file:../xlib/.build/lib/tsx/kds",

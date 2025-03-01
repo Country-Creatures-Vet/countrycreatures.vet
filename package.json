@@ -8,10 +8,10 @@
     "main": "./dist/index.cjs",
     "module": "./dist/index.js",
     "types": "./dist/index.d.ts",
-    "homepage": "https://country-creatures-vet.github.io/countrycreatures.vet",
+    "homepage": "https://country-creatures-vet.github.io/countrycreatures.vet/",
     "scripts": {
         "start": "npm install --force && vite",
-        "build": "npm install --force && vite build && tsup src/index.ts",
+        "build": "npm install --force && vite build",
         "lint": "eslint .",
         "preview": "vite preview",
         "test": "react-scripts test",

@@ -37,17 +37,6 @@ export default function HomePage(): React.ReactElement {
             </button>
         </a>)
     ]);
-    const contact = (
-        <>
-            <a href="tel:864-337-3758" style={{
-                textDecoration: "none"
-            }}>
-                <KDSText >
-                    (864) 337-3758
-                </KDSText>
-            </a>
-        </>
-    );
 
     const service = (icon: string, name: string, iconBackground: string = "rgba(99, 35, 37, 1)", background: string = "rgba(234, 162, 47, 1)") => {
         return (

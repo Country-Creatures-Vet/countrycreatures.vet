@@ -16,7 +16,7 @@
         "preview": "vite preview",
         "test": "react-scripts test",
         "eject": "react-scripts eject",
-        "predeploy": "npm run build",
+        "predeploy": "npm run build && cp dist/index.html dist/404.html",
         "deploy": "gh-pages -d dist"
     },
     "dependencies": {

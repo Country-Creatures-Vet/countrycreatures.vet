@@ -32,6 +32,6 @@ export default defineConfig({
     exclude: ['https://fonts.googleapis.com'],
   },
   plugins: [react(), tsconfigPaths()],
-  base: 'https://country-creatures-vet.github.io/countrycreatures.vet/',
+  base: '/countrycreatures.vet/',
 })
 

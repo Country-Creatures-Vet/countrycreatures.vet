@@ -15,7 +15,7 @@ export default function App(): React.ReactElement {
             icon={{
                 name: "Pets",
                 color: "primary",
-                ico: "/assets/menu.ico",
+                ico: `${import.meta.env.BASE_URL}assets/menu.ico`,
             }}
             actions={app_actions}
             nav={app_nav}

@@ -104,7 +104,7 @@ export default function HomePage(): React.ReactElement {
                     overflowY: "auto"
                 }}>
                 <KDSFlexItem grow={0}>
-                    <KDSCarousel background={<KDSVideo src="assets/home/Large-animals.mp4" />}>
+                    <KDSCarousel background={<KDSVideo src={`${import.meta.env.BASE_URL}assets/home/Large-animals.mp4`} />}>
                         {welcome}
                     </KDSCarousel>
                 </KDSFlexItem>
@@ -146,7 +146,7 @@ export default function HomePage(): React.ReactElement {
                         </KDSFlexItem>
                         <KDSFlexItem grow={0}
                             margin={KDSMargin.horiz_48}>
-                            <img src="assets/home/berr-standing-next-to-a-horse.jpg" style={{
+                            <img src={`${import.meta.env.BASE_URL}assets/home/berr-standing-next-to-a-horse.jpg`} style={{
                                 maxWidth: "500px",
                                 minWidth: "250px",
                                 height: "auto",
@@ -243,7 +243,7 @@ export default function HomePage(): React.ReactElement {
                     }}>
                         <div style={{
                             pointerEvents: "none",
-                            backgroundImage: "url('assets/home/meet_dr_berr_background.svg')",
+                            backgroundImage: `url('${import.meta.env.BASE_URL}assets/home/meet_dr_berr_background.svg')`,
                             backgroundSize: "100% 100%",
                             backgroundPosition: "center",
                             top: "0",
@@ -287,7 +287,7 @@ export default function HomePage(): React.ReactElement {
                             </KDSFlexLayout>
                         </KDSFlexItem>
                         <KDSFlexItem alignSelf="center">
-                            <img src="assets/home/dr_berr.jpg" style={{
+                            <img src={`${import.meta.env.BASE_URL}assets/home/dr_berr.jpg`} style={{
                                 maxWidth: "500px",
                                 minWidth: "250px",
                                 height: "auto",
@@ -330,16 +330,16 @@ export default function HomePage(): React.ReactElement {
                                     flexWrap: "wrap"
                                 }}>
                                 <KDSFlexItem>
-                                    {service("assets/home/equine-icon-img.webp", "Equine")}
+                                    {service(`${import.meta.env.BASE_URL}assets/home/equine-icon-img.webp`, "Equine")}
                                 </KDSFlexItem>
                                 <KDSFlexItem>
-                                    {service("assets/home/cattle-icon-img.webp", "Cattle", "rgba(234, 162, 47, 1)", "rgba(99, 35, 37, 1)")}
+                                    {service(`${import.meta.env.BASE_URL}assets/home/cattle-icon-img.webp`, "Cattle", "rgba(234, 162, 47, 1)", "rgba(99, 35, 37, 1)")}
                                 </KDSFlexItem>
                                 <KDSFlexItem>
-                                    {service("assets/home/goat-icon-img.webp", "Small Ruminants", "rgba(234, 162, 47, 1)", "rgba(99, 35, 37, 1)")}
+                                    {service(`${import.meta.env.BASE_URL}assets/home/goat-icon-img.webp`, "Small Ruminants", "rgba(234, 162, 47, 1)", "rgba(99, 35, 37, 1)")}
                                 </KDSFlexItem>
                                 <KDSFlexItem>
-                                    {service("assets/home/pig-icon-img.webp", "Pigs")}
+                                    {service(`${import.meta.env.BASE_URL}assets/home/pig-icon-img.webp`, "Pigs")}
                                 </KDSFlexItem>
                             </KDSFlexLayout>
                         </KDSFlexItem>
@@ -470,7 +470,7 @@ export default function HomePage(): React.ReactElement {
                     }}>
                         <div style={{
                             pointerEvents: "none",
-                            backgroundImage: "url('assets/home/circle_background.svg')",
+                            backgroundImage: `url('${import.meta.env.BASE_URL}assets/home/circle_background.svg')`,
                             backgroundSize: "cover",
                             backgroundPosition: "0 0",
                             top: "0",

@@ -11,7 +11,7 @@
     "homepage": "https://country-creatures-vet.github.io/countrycreatures.vet",
     "scripts": {
         "start": "npm install --force && vite",
-        "build": "npm install --force && vite build",
+        "build": "npm install --force && vite build && tsup src/index.ts",
         "lint": "eslint .",
         "preview": "vite preview",
         "test": "react-scripts test",
